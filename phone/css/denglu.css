@@ -1,0 +1,219 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-22 15:40:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-22 21:49:58
+*/
+/*
+* @Author: Administrator
+* @Date:   2018-04-22 15:40:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-22 17:46:20
+*/
+
+
+.zhuce{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/dengluzhuce/dibu.jpg');
+	background-size: 100% 100%;
+}
+.zhuce header{
+	width: 100%;
+	height: 4.05rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.zhuce header .headPic{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	display: flex;
+}
+
+
+
+
+.zhuce section{
+	width: 100%;
+	height: 1.02rem;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: flex-end;
+	align-items: center;
+}
+.zhuce section span{
+	font-size: 0.2rem;
+	color: #f4e6f8;
+}
+.zhuce section .huanying{
+	width: 100%;
+	height: calc(100% / 2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.zhuce section .huanying .s{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #d868f0;
+	border-radius: 50%;
+	margin-right: 0.16rem;
+}
+.zhuce section .huanying .m{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #da78f0;
+	border-radius: 50%;
+	margin-right: 0.16rem;
+}
+.zhuce section .huanying .l{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #dc86f1;
+	border-radius: 50%;
+	margin-right: 0.16rem;
+}
+.zhuce section .huanying span{
+	font-size: 0.2rem;
+	color: #f4e6f8;
+	margin-right: 0.16rem;
+}
+
+
+.zhuce .card{
+	width: 100%;
+	height: 4.65rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.zhuce .card .cardBai{
+	width: 5rem;
+	height: 3rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.05rem 0.3rem rgba(0, 0, 0, 0.3);
+	padding-bottom: 0.2rem;
+}
+.zhuce .card .cardBai .huan{
+	width: 100%;
+	height: 0.24rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.zhuce .card .cardBai .huan .dian{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #b0aab0;
+	margin: 0 0.2rem;
+	border-radius: 50%;
+}
+
+.zhuce .card .cardBai .baiInput{
+	width: 100%;
+	height: 2.1rem;
+	padding: 0 0.31rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.zhuce .card .cardBai .baiInput .con{
+	width: 100%;
+	height: calc(100% / 3);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem solid #d2d2d2;
+}
+.zhuce .card .cardBai .baiInput .con .zhishi{
+	width: 0.16rem;
+	height: 0.08rem;
+	background: #dc86f1;
+	box-shadow: 0 0.05rem 0.15rem rgba(223, 161, 238, 0.3);
+}
+
+.zhuce .card .cardBai .baiInput .con .iconfont{
+	font-size: 0.24rem;
+	color: #c52beb;
+}
+.zhuce .card .cardBai .tijiao{
+	width: 1.9rem;
+	height: 0.46rem;
+	background: #e0e0e0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.1rem;
+	margin: 0.36rem auto 0;
+}
+.zhuce .card .cardBai .tijiao .icon-icon{
+	font-size: 0.36rem;
+	color: #f9eef9;
+}
+.zhuce .card .cardBai .baiInput .con span{
+	font-size: 0.18rem;
+	color: #89868a;
+	margin-left: 0.45rem;
+	margin-right: 0.16rem;
+}
+.zhuce .card .cardBai .baiInput .con:nth-child(3){
+	justify-content: flex-start;
+	border: none;
+}
+.zhuce .card .cardBai .baiInput .con .icon-bangzhu{
+	font-size: 0.18rem;
+	color: #89868a;
+}
+
+
+
+
+.zhuce footer{
+	width: 100%;
+	height: 2.24rem;
+	border-top: 0.01rem solid #bfbfbf;
+	position: fixed;
+	bottom: 0;
+}
+.zhuce footer .footerTop{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.2rem;
+	color: #6e6969;
+	text-align: center;
+	line-height: 0.6rem;
+}
+.zhuce footer .footerBottom{
+	width: 100%;
+	height: calc(100% - 0.6rem);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-grow: 1;
+}
+.zhuce footer .footerBottom a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0.05rem 0.15rem rgba(0, 0, 0, 0.3);
+}
+.zhuce footer .footerBottom a .icon-wexin{
+	font-size: 0.4rem;
+	color: #19f423;
+}
+.zhuce footer .footerBottom a .icon-qq{
+	font-size: 0.4rem;
+	color: #1b27dd;
+}
+.zhuce footer .footerBottom a .icon-tubiao214{
+	font-size: 0.4rem;
+	color: #c52a3e;
+}

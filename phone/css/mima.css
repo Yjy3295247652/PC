@@ -1,0 +1,144 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-21 14:15:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-21 16:21:27
+*/
+.zhiwenBox{
+	width: 100%;
+	height: 7.2rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.zhiwenBox .top{
+	width: 100%;
+	height: 0.98rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.24rem;
+	border-bottom: 0.01rem solid #d2d2d2;
+}
+.zhiwenBox .top .iconfont{
+	font-size: 0.24rem;
+	color: #847f84;
+}
+.zhiwenBox .top .conTop{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.zhiwenBox .top .conTop span{
+	font-size: 0.24rem;
+	color: #151415;
+}
+.zhiwenBox .top .conTop .icon-zhanghuyue{
+	font-size: 0.4rem;
+	color: #b014ae;
+}
+
+
+.zhiwenBox .section{
+	width: 100%;
+	padding: 0 0.24rem;
+	height: 1.68rem;
+}
+.zhiwenBox .section .qianshu{
+	width: 100%;
+	height: 0.82rem;
+	font-size: 0.6rem;
+	color: #151415;
+	text-align: center;
+	line-height: 0.82rem;
+}
+.zhiwenBox .section .inputBox{
+	width: 100%;
+	height: 0.6rem;
+	margin: 0.33rem 0;
+	display: flex;
+}
+.zhiwenBox .section .inputBox input{
+	flex-grow: 1;
+	width: calc(100% / 6);
+	height: 100%;
+	border: 0.01rem solid #b5b5b5;
+	text-align: center;
+	line-height: 0.6rem;
+}
+
+
+
+
+.zhiwenBox .bottom{
+	width: 100%;
+	height: 3.22rem;
+	background: #d5d7de;
+	margin-top: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.zhiwenBox .bottom .button{
+	width: 2.34rem;
+	height: 0.93rem;
+	background: #fcfcfc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0.12rem;
+	margin-top: 0.12rem;
+	/* 阴影没设 */
+}
+.zhiwenBox .bottom .button b{
+	font-size: 0.36rem;
+	color: #000;
+}
+.zhiwenBox .bottom .button span{
+	font-size: 0.18rem;
+	color: #000;
+}
+
+
+
+.zhiwenBox footer{
+	width: 100%%;
+	height: 1.12rem;
+	background: #d5d7de;
+	display: flex;
+}
+.zhiwenBox footer .button{
+	width: 2.34rem;
+	height: 0.93rem;
+	background: #d5d7de;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0.12rem;
+	margin-top: 0.12rem;
+	/* 阴影没设 */
+}
+.zhiwenBox footer .button:nth-child(2){
+	background: #fcfcfc;
+}
+.zhiwenBox footer .button b{
+	font-size: 0.36rem;
+	color: #000;
+}
+.zhiwenBox footer .icon-caozuo-tuige{
+	font-size: 0.46rem;
+	color: #3f434a;
+}
+
+
+
+
+
+
+
+.box{
+	width: 100%;
+	height: 6.14rem;
+	background: rgba(0, 0, 0, 0.2)
+}

@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "wf_segoe-ui_normal", "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+a{
+    text-decoration: none;
+}

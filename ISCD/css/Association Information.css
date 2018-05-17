@@ -1,0 +1,575 @@
+header{
+    width: 100%;
+    height: 106px;
+    /*background: blue;*/
+    padding-top: 30px;
+}
+.main{
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+}
+header .main .headBox{
+    width: 100%;
+    height: 100%;
+    padding: 8px 0;
+    display: flex;
+    flex-grow: 1;
+}
+header .main .headBox .boxLeft{
+    display: flex;
+    width: 500px;
+    height: 100%;
+    /*background: yellow;*/
+}
+header .main .headBox .boxLeft .logo{
+    display: block;
+    width: 302px;
+    height: 100%;
+}
+header .main .headBox .boxLeft .logo img{
+    width: 302px;
+    height: 100%;
+}
+header .main .headBox .boxRight{
+    display: flex;
+    width: 700px;
+    height: 100%;
+    /*background: red;*/
+}
+header .main .headBox .boxRight a{
+    display: block;
+    width: auto;
+    height: 55px;
+    padding:16px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+header .main .headBox .boxRight a:nth-child(7){
+    padding-right: 0;
+}
+header .main .headBox .boxRight a span{
+    font-size: 16px;
+    color: #6b696c;
+}
+header .main .headBox .boxRight a:hover span{
+    color: rgb(54, 217, 203);
+}
+
+
+
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/association.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+section{
+    width: 100%;
+    height: auto;
+}
+
+section .main .sec{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    display: flex;
+}
+section .main .sec .secLeft{
+    width: 83.333333%;
+    height: auto;
+    padding-right: 35px;
+    border-right: 1px solid #eee;
+}
+section .main .sec .secLeft .leftHead{
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+section .main .sec .secLeft .leftHead a{
+    font-size: 12px;
+    color: #666;
+}
+section .main .sec .secLeft h1{
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0;
+}
+section .main .sec .secLeft .time{
+    width: 100%;
+    height: 51px;
+    padding:15px 0;
+    margin-bottom: 15px;
+}
+section .main .sec .secLeft .time span{
+    font-size: 12px;
+    color: #888;
+}
+section .main .sec .secLeft .picOne{
+    width: 100%;
+    height: 332px;
+    text-align: center;
+}
+section .main .sec .secLeft .picOne img{
+    width: 643px;
+    height: 300px;
+    margin: 5px 0;
+}
+section .main .sec .secLeft p{
+    width: 100%;
+    height: 27px;
+    font-size: 15px;
+    color: #333;
+    line-height: 27px;
+    margin: 8px 0;
+}
+section .main .sec .secLeft .picTwo{
+    width: 100%;
+    height: 337px;
+    text-align: center;
+}
+section .main .sec .secLeft .picTwo img{
+    width: 500px;
+    height: 305px;
+    margin: 5px 0;
+}
+
+
+section .main .sec .secLeft .picThree{
+    width: 100%;
+    height: 455px;
+    text-align: center;
+}
+
+section .main .sec .secLeft .picThree img{
+    width: 540px;
+    height: 423px;
+    margin: 5px 0;
+}
+section .main .sec .secLeft .label{
+    width: auto;
+    height: 54px;
+    padding-top: 35px;
+}
+section .main .sec .secLeft .label span{
+    font-size: 14px;
+    color: #888;
+    padding-right: 12px;
+}
+section .main .sec .secLeft .share{
+    width: 100%;
+    height: 57px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+    margin-top: 26px;
+    display: flex;
+    justify-content: flex-start;
+}
+section .main .sec .secLeft .share span{
+    font-size: 14px;
+    color: #666;
+    margin-right: 12px;
+    line-height: 1.8;
+}
+
+
+section .main .sec .secLeft .share .footIcon{
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin:0 6px 12px 0px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+
+}
+section .main .sec .secLeft .share .footIcon .iconfont{
+    font-size: 16px;
+    color: #fff;
+}
+section .main .sec .secLeft .share .qq{
+    background: #5ac7f9;
+}
+section .main .sec .secLeft .share .wei-xin{
+    background: #49d5b2;
+}
+section .main .sec .secLeft .share .QQ_kong_jian{
+    background: #fecc31;
+}
+section .main .sec .secLeft .share .weibo{
+    background: #fa2a1b;
+}
+section .main .sec .secLeft .share .huaban{
+    background: #ee4c59;
+}
+section .main .sec .secLeft .share .Facebook{
+    background: #3b5999;
+}
+section .main .sec .secLeft .share .Ankerwebicon{
+    background: #1cb2e8;
+}
+
+
+
+
+
+section .main .sec .secRight{
+    width: 16.666667%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+section .main .sec .secRight .rightQR{
+    width: 192px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .sec .secRight .rightQR:hover img{
+    transform: scale(1.1,1.1);
+    transition: scale,1s;
+}
+section .main .sec .secRight .rightQR img{
+    transform: scale(1,1);
+    transition: scale,1s;
+}
+section .main .sec .secRight .rightQR .tishi{
+    font-size: 15px;
+    color: #333;
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #017cc3;
+}
+footer .main .footBox{
+    width: 100%;
+    height: 464px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 30px;
+}
+footer .main .footBox .boxOne{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 50px;
+}
+footer .main .footBox .boxOne .top{
+    display: block;
+    width: 100%;
+    height: calc(100% / 6);
+}
+hr{
+    width: 350px;
+    background-color: #fff;
+}
+footer .main .footBox .boxOne .top span{
+    font-size: 20px;
+    color: #fff;
+}
+footer .main .footBox .boxOne .conTitle{
+    display: block;
+    width: 100%;
+    height: calc(100% / 6);
+    margin-top: 30px;
+}
+footer .main .footBox .boxOne .conTitle span{
+    font-weight: 700;
+    color: #fff;
+}
+footer .main .footBox .boxOne .con{
+    display: block;
+    width: 100%;
+    height: calc(100% / 6);
+}
+footer .main .footBox .boxOne .con span{
+    font-size: 16px;
+    color: #fff;
+}
+
+footer .main .footBox .boxTwo{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 50px;
+}
+footer .main .footBox .boxTwo .top{
+    display: block;
+    width: 100%;
+    height: 67px;
+}
+footer .main .footBox .boxTwo .top span{
+    font-size: 20px;
+    color: #fff;
+}
+footer .main .footBox .boxTwo .conTitle{
+    display: block;
+    width: 100%;
+    height: 67px;
+    margin-top: 30px;
+}
+footer .main .footBox .boxTwo .conTitle a{
+    font-weight: 700;
+    color: #fff;
+}
+
+footer .main .footBox .boxThree{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+footer .main .footBox .boxThree .top{
+    width: 100%;
+    height: 60px;
+    margin:25px 0 5px;
+    text-align: center;
+}
+footer .main .footBox .boxThree .top span{
+    font-size: 20px;
+    color: #fff;
+}
+footer .main .footBox .boxThree .sec{
+    width: 100%;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .main .footBox .boxThree .sec img{
+    width: 153px;
+    height: 153px;
+    transform: scale(1,1);
+    transition: scale,1s;
+}
+footer .main .footBox .boxThree .sec img:hover{
+    transform: scale(1.3,1.3);
+    transition: scale,1s;
+}
+footer .main .footBox .boxThree .sec .secTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+}
+footer .main .footBox .boxThree .foot{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .main .footBox .boxThree .foot .footIcon{
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin:0 6px 12px 0px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 5px;
+
+}
+footer .main .footBox .boxThree .foot .footIcon .iconfont{
+    font-size: 16px;
+    color: #fff;
+}
+footer .main .footBox .boxThree .foot .qq{
+    background: #5ac7f9;
+}
+footer .main .footBox .boxThree .foot .wei-xin{
+    background: #49d5b2;
+}
+footer .main .footBox .boxThree .foot .QQ_kong_jian{
+    background: #fecc31;
+}
+footer .main .footBox .boxThree .foot .weibo{
+    background: #fa2a1b;
+}
+footer .main .footBox .boxThree .foot .huaban{
+    background: #ee4c59;
+}
+footer .main .footBox .boxThree .foot .Facebook{
+    background: #3b5999;
+}
+footer .main .footBox .boxThree .foot .Ankerwebicon{
+    background: #1cb2e8;
+}
+
+
+
+.wan{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wan p{
+    font-size: 12px;
+    color:#666;
+    margin-right: 12px;
+}
+.wan a {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+.onLine{
+    width: 200px;
+    height: 360px;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: #eee;
+    overflow: hidden;
+
+}
+.onLine .head{
+    width: 100%;
+    height: 38px;
+    padding: 0 12px;
+    background: #0072a2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.onLine .head span{
+    font-size: 12px;
+    color: #fff;
+}
+.onLine .head i{
+    font-size: 12px;
+    color: #fff;
+}
+.onLine .QQ{
+    width: 100%;
+    height: 33px;
+    background: #e2e2e2;
+    padding:6px 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.onLine .QQ i{
+    font-size: 12px;
+    color:#0b0a0b;
+    margin-right: 5px;
+}
+.onLine .QQ span{
+    font-size: 12px;
+    color: #0b0a0b;
+}
+.onLine .phone{
+    width: 100%;
+    height: 76px;
+    padding: 6px 12px;
+    background: #fff;
+}
+.onLine .phone .top{
+    width: 100%;
+    height: 25px;
+}
+.onLine .phone .top span{
+    font-size: 14px;
+    color: #999;
+}
+.onLine .phone .top i{
+    font-size: 14px;
+    color: #999;
+}
+.onLine .phone .bottom{
+    width: 100%;
+    height: 39px;
+}
+.onLine .phone .bottom span{
+    font-size: 20px;
+    color: #888;
+    font-weight: bold;
+}
+.onLine .weiXin{
+    width: 100%;
+    height: 230px;
+    border-top: 1px solid #999;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.information{
+    width: 34px;
+    height: 34px;
+    background: #0072c2;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 34px;
+    position: fixed;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: none;
+}
+.information i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

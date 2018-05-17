@@ -1,0 +1,96 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-20 17:06:33
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-21 10:24:23
+*/
+
+
+.dizhiBox{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/dizhi/dibu.jpg');
+	background-size: 100% 100%;
+}
+.dizhiBox header{
+	width: 100%;
+	height: 3.27rem;
+	/* background: yellow; */
+	padding: 0 0.24rem;
+}
+header .headTop{
+	width: 100%;
+	height: 0.88rem;
+	display: flex;
+}
+header .headTop .conHT{
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+}
+header .headTop .conHT:nth-child(2){
+	justify-content: flex-end;
+}
+header .headTop .conHT .icon-fanhui{
+	font-size: 0.3rem;
+	color: #fff;
+	margin-right: 0.2rem;
+}
+header .headTop .conHT p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .headTop .conHT a{
+	font-size: 0.24rem;
+	color: #fff;
+	
+}
+
+.headBottom{
+	width: 100%;
+	height: 1.62rem;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0.4rem;
+	margin-top: 0.77rem;
+	justify-content: flex-start;
+}
+.headBottom .conHB{
+/* 	width: 100%;
+	height: calc(100 / 3); */
+	flex-grow: 1;
+	/* background: blue; */
+	font-size: 0.24rem;
+	display: flex;
+	align-items: center;
+}
+.headBottom .conHB span{
+	color: #0b0a0b;
+}
+.headBottom .conHB span:nth-child(1){
+	font-size: 0.3rem;
+	margin-right: 0.26rem;
+	display: flex;
+	justify-content: center;
+}
+.headBottom .conHB p{
+	width: auto;
+	height: 0.3rem;
+	background: #e192f5;
+	font-size: 0.18rem;
+	color: #ae0bda;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section{
+	width: 100%;
+	height: calc(100% - 3.27rem);
+	padding: 0 0.24rem;
+}
+a{
+	display: block;
+	background: #fff;
+	border-radius: 0.2rem;
+}

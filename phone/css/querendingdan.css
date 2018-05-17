@@ -1,0 +1,313 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-20 08:26:37
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-20 16:53:27
+*/
+
+header{
+	width: 100%;
+	height: 3.5rem;
+	background: #c935b1;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	box-sizing: border-box;
+}
+header .icon{
+	width: 100%;
+	height: 0.88rem;
+}
+header .icon .icon-fanhui{
+	font-size: 0.32rem;
+	color: #fff;
+	line-height: 0.88rem;
+	float: left;
+}
+header .xinxi{
+	width: 100%;
+	height: 1.4rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.38rem;
+}
+header .xinxi .conX{
+	width: 100%;
+	height: calc(100% / 3);
+	font-size: 0.2rem;
+	flex-grow: 1;
+	color: #faebeb;
+}
+header .xinxi .dizhi{
+	font-size: 0.3rem;
+}
+header .tishi{
+	width: 100%;
+	height: 1.02rem;
+	background: #e7dcd4;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.38rem;
+}
+header .tishi .conT{
+	width: 100%;
+	height: calc(100% / 2);
+	display: flex;
+	justify-content: space-between;
+}
+header .tishi .conT .content{
+	width: calc(100% / 2);
+	height: 100%;
+	font-size: 0.24rem;
+	color: #0d0c0c;
+	display: flex;
+	align-items: center;
+}
+header .tishi .conT .con2{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #e933e7;
+}
+header .tishi .conT i{
+	display: flex;
+	color: #e933e7;
+	margin-left: 0.12rem;
+	font-size: 0.24rem;
+	line-height: 0.51rem;
+}
+
+
+
+
+
+section{
+	width: 100%;
+	height: 9.66rem;
+	background: #ebe1eb;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+section .shangpin{
+	width: 100%;
+	height: 5.5rem;
+	background: #fff;
+	padding: 0 0.38rem;
+	display: flex;
+	flex-direction: column;
+
+}
+section .shangpin h3{
+	display: block;
+	width: 100%;
+	height: 0.66rem;
+	border-bottom: 0.03rem solid #c9c9c9;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+	margin-bottom: 0.05rem;
+	line-height: 0.66rem;
+}
+section .shangpin span{
+	width: 100%;
+	height: calc(100% / 7);
+	display: flex;
+	justify-content: space-between;
+	border-top: 0.01rem solid #c9c9c9;
+}
+section .shangpin span .con{
+	width: calc(100% / 2);
+	height: 100%;
+	align-items: center;
+	font-size: 0.24rem;
+	display: flex;
+	align-items: center;
+}
+section .shangpin span .left img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-right: 0.16rem;
+}
+section .shangpin span .right{
+	justify-content: flex-end;
+}
+section .shangpin span .right .money{
+	font-size: 0.18rem;
+	margin-right: 0.58rem;
+}
+
+section .shangpin span .left span{
+	display: block;
+	width: 0.8rem;
+	height: 0.27rem;
+	background: #e5e5e5;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.27rem;
+	margin-right: 0.16rem;
+}
+section .shangpin span .left .manjian{
+	background: #eea8a8;
+	color: #f03218;
+}
+section .shangpin span .right .youhui{
+	color: #ee1d2c;
+}
+section .shangpin span .left .shuoming{
+	font-size: 0.18rem;
+	color: #c8c7c8;
+	border: none;
+	background: none;
+	width: 1rem;
+}
+section .shangpin span .left .icon-bangzhu{
+	font-size: 0.18rem;
+	color: #c8c7c8;
+}
+section .shangpin span .left .zong{
+	font-size: 0.18rem;
+}
+
+section .vip{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	margin-top: 0.2rem;
+	border-left: 0.03rem solid #ebb627;
+	padding: 0 0.38rem;
+	box-sizing: border-box;
+}
+section .vip .conVip{
+	width: calc(100% / 2);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+section .vip .conVip .conT{
+	display: flex;
+	align-items: flex-start;
+	align-items: center;
+	font-size: 0.2rem;
+	color: #585658;
+}
+section .vip .conVip .conT i{
+	font-size: 0.2rem;
+	color: #585658;
+	margin-left: 0.16rem;
+}
+section .vip .contents{
+	display: flex;
+	flex-direction: row;
+}
+section .vip .money{
+	width: calc(100% / 2);
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+section .vip del{
+	font-size: 0.18rem;
+	color: #7a767a;
+}
+section .vip h4{
+	font-size: 0.24rem;
+	color: #151415;
+}
+
+
+section .remarks{
+	width: 100%;
+	height: 1.82rem;
+	background: #fff;
+	margin-top: 0.21rem;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+section .remarks .conR{
+	width: 100%;
+	height: calc(100% / 3);
+	padding: 0 0.38rem;
+	border-bottom: 0.01rem solid #ebe1eb;
+	box-sizing: border-box;
+	display: flex;
+	flex-grow: 1;
+}
+section .remarks .conR span{
+	font-size: 0.24rem;
+	color: #151415;
+}
+section .remarks .conR .xuanze{
+	width: calc(100% / 2);
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+section .remarks .conR div.xuanze{
+	justify-content: flex-end;
+}
+section .remarks .conR .xuanze p{
+	font-size: 0.18rem;
+	color: #e3e2e3;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 0.12rem;
+}
+section .remarks .conR span.xuanze .icon-bangzhu{
+	font-size: 0.18rem;
+	color: #3c3c3c;
+	display: flex;
+	margin-left: 0.16rem;
+}
+section .remarks .conR .xuanze pre{
+	color: #1eb94a;
+	font-size: 0.18rem;
+	margin-right: 0.1rem;
+}
+section .remarks .conR .xuanze .icon-jienenghuanbao{
+	color: #1eb94a;
+	margin-right: 0.1rem;
+}
+
+
+/* padding-left: 0.62rem; */
+
+
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #313131;
+	position: fixed;
+	bottom: 0;
+}
+footer .conF{
+	width: 5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	float: left;
+}
+footer .conFt{
+	width: 2.5rem;
+	height: 100%;
+	background: #1eb94a;
+	color: #f8f0f8;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.98rem;
+	float: left;
+}
+footer .conF h5{
+	font-size: 0.24rem;
+	color: #fcf6fc;
+	margin-left: 0.62rem;
+}
+footer .conF p{
+	font-size: 0.18rem;
+	color: #7c777c;
+	float: left;
+}

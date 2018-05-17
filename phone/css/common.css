@@ -1,0 +1,22 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-16 16:45:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-19 11:07:14
+*/
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	color: #000000;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+input , texterea , button{
+	border: none;
+	outline: none;
+}

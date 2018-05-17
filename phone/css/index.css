@@ -1,0 +1,359 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-17 08:32:52
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-19 11:08:50
+*/
+
+body{
+	position: relative;
+}
+
+header{
+	width: 100%;
+	height: 1.45rem;
+	background-image: url('../img/shouye/1.jpg');
+	background-size: 100% 100%;
+	/* box-sizing: border-box; */
+	padding: 0.25rem 0.24rem 0;
+	position: relative;
+}
+.hleft{
+	width: 3.15rem;
+	height: 0.44rem;
+	/* background-color: blue; */
+	float: left;
+}
+.hleft .icon-dingwei2{
+	font-size: 0.40rem;
+	color: #fff;
+	line-height: 0.44rem;
+	margin-right: 0.03rem;
+	float: left;
+}
+.hleft a{
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.44rem;
+	margin-right: 0.03rem;
+	float: left;
+}
+.hleft .icon-sanjiaoxing-down{
+	font-size: 0.23rem;
+	color: #fff;
+	margin-top: 0.1rem;
+	float: left;
+	margin-right: 0.03rem;
+}
+.hright{
+	width: 3.51rem;
+	height: 0.44rem;
+	background-color: #fff;
+	float: right;
+	border-radius: 0.16rem;
+	color: #8a8c90;
+	font-size: 0.18rem;
+	padding-left: 0.44rem;
+	/* box-sizing: border-box; */
+}
+header .icon-sousuo{
+	font-size: 0.28rem;
+	color: #898b8f;
+	position: absolute;
+	top: 0.33rem;
+	left: 3.79rem;
+}
+
+
+nav{
+	width: 7.5rem;
+	height: 4.2rem;
+	/* background: red; */
+	box-sizing: border-box;
+	padding: 0 0.24rem;
+	position: relative;
+}
+nav .boxN{
+	width: 100%;
+	height: 3.8rem;
+	margin-top: 0.05rem;
+	/* background: green; */
+	float: left;
+}
+nav .boxN .one{
+	width: 7.02rem;
+	height: 100%;
+	/* background: blue; */
+}
+nav .boxN .one .box{
+	width: 20%;
+	height: 1.9rem;
+	margin-top: 0.05rem;
+	/* background: yellow; */
+	float: left;
+}
+nav .boxN .one .box img{
+	width: 1.06rem;
+	height: 1.36rem;
+	margin-top: 0.24rem;
+}
+nav .boxN .two{
+	display: none;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.24rem;
+}
+nav .boxN .three{
+	display: none;
+	position: absolute;
+	top: 0.05rem;
+	left: 0.24rem;
+}
+nav .point{
+	width: 7.02rem;
+	height: 0.06rem;
+	/* background: blue; */
+	float: left;
+}
+nav .point .boxP{
+	width: 0.6rem;
+	height: 0.06rem;
+	/* background: yellow; */
+	margin: 0.2rem auto 0;
+}
+nav .point .boxP .dot{
+	width: 0.06rem;
+	height: 0.06rem;
+	/* background: red; */
+	float: left;
+	margin-right: 0.02rem;
+	border-radius: 0.03rem;
+	border: 0.01rem solid rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+}
+nav .point .boxP .dot:nth-child(1){
+	width: 0.4rem;
+	height: 0.06rem;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+
+hr{
+	margin-top: 0.2rem;
+}
+
+
+.main{
+	width: 7.02rem;
+	margin-left: 0.24rem;
+	height: 100%;
+	/* background: blue; */
+}
+
+
+
+
+.banner{
+	width: 100%;
+	height: 1.15rem;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #b9baba;
+}
+.banner .main .top{
+	width: 100%;
+	height: 0.72rem;
+	/* background: red; */
+	padding: 0.2rem 1.44rem;
+	box-sizing: border-box;
+	
+}
+.banner .main .top hr{
+	width: 0.68rem;
+	height: 0.02rem;
+	background: rgba(0, 0, 0, 0.3);
+	float: left;
+	margin: 0.15rem 0.15rem 0;
+}
+.banner .main .top .yuan{
+	width: 0.02rem;
+	border-radius: 50%;
+}
+.banner .main .top span{
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0, 0.3);
+	float: left;
+	margin: 0 0.15rem;
+}
+.banner .main .bottom{
+	width: 100%;
+	padding-top: 0.12rem;
+	box-sizing: border-box;
+}
+.banner .main .bottom li{
+	width: 25%;
+	height: 0.2rem;
+	font-size: 0.18rem;
+	color: rgba(0, 0, 0, 0.6);
+	float: left;
+	line-height: 0.2rem;
+	text-align: center;
+}
+.banner .main .bottom li i{
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+section{
+	width: 100%;
+	height: auto;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #b9baba;
+}
+section .main .boxSec{
+	display: flex;
+	width: 100%;
+	height: 2.9rem;
+	padding-top: 0.36rem;
+	border-bottom: 0.01rem;
+}
+section .main .boxSec .left{
+	width: 1.5rem;
+	height: 1.5rem;
+	/* background: blue; */
+	/* float: left; */
+}
+section .main .boxSec .left img{
+	width: 100%;
+	height: 100%;
+}
+section .main .boxSec .right{
+	width: calc(100% - 1.5rem);
+	height: 100%;
+	/* background: red; */
+	padding-left: 0.24rem;
+	/* float: left; */
+	display: flex;
+	flex-direction: column;
+}
+section .main .boxSec .right .neirong{
+	width: 100%;
+	height: calc(100% / 6);
+	/* background: green; */
+}
+section .main .boxSec .right .neirong{
+	flex-grow: 1;
+}
+section .main .boxSec .right .con1{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.3rem;
+}
+section .main .boxSec .right .con2{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.18rem;
+}
+section .main .boxSec .right .con3{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.2rem;
+}
+section .main .boxSec .right .con2 .zuo{
+	width: auto;
+}
+section .main .boxSec .right .con2 .zuo span:nth-child(1){
+	color: #e0f217;
+}
+section .main .boxSec .right .con2 .you{
+	width: auto;
+}
+section .main .boxSec .right .con2 .you .zhunshi{
+	background: #eee;
+	border: 0.01rem solid #949292;
+	float: right;
+	margin-right: 0.1rem;
+}
+section .main .boxSec .right .con2 .you .zhunshi h6{
+	color: #cb38b2;
+}
+section .main .boxSec .right .con2 .you .fengniao{
+	background: #cb38b2;
+	border: 0.01rem solid #f38fe2;
+	float: right;
+}
+section .main .boxSec .right .con2 .you .fengniao h6{
+	color: #fff;
+}
+section .main .boxSec .right .con2 .kuang{
+	width: 1rem;
+	height: 0.3rem;
+	background: rgba(0, 0, 0, 0);
+	border: 0.01rem solid #949292;
+	display: flex;
+	align-items: flex-end;
+}
+section .main .boxSec .right .con3 .youhui{
+	width: 0.6rem;
+	height: 0.3rem;
+	background: #f08888;
+	border: 0.01rem solid #949292;
+	margin-right: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #e20505;
+}
+
+
+
+
+
+footer{
+	width: 7.5rem;
+	height: 0.98rem;
+	background-image: url('../img/shouye/footer.jpg');
+	background-size: cover;
+	position: fixed;
+	bottom: 0;
+	box-shadow:0 -0.04rem 0.18rem rgba(0,0,0,0.3);
+}
+footer .main{
+	display: flex;
+	justify-content: space-around;
+
+}
+footer .main a{
+	width: calc(100% / 4);
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+footer .main a .tab{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer .main a i{
+	font-size: 0.4rem;
+	color: #fff;
+}
+footer .main a{
+	font-size: 0.18rem;
+	color: #fff;
+}
+footer .main .xuanzhong i{
+	color: blue;
+}
+footer .main .xuanzhong .tab span{
+	color: blue;
+}
+
+.boxDi{
+	width: 100%;
+	height: 0.98rem;
+}
